@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "marketplace": {
+    "name": "Agena Plugin Marketplace",
+    "description": "Community and verified Agena plugins distributed through immutable GitHub Releases.",
+    "homepage": "https://github.com/canxin121/agena-plugin-marketplace",
+    "repository": "https://github.com/canxin121/agena-plugin-marketplace",
+    "owner": {
+      "name": "canxin121"
+    }
+  },
+  "renames": {},
+  "plugins": []
+}
