@@ -10,5 +10,254 @@
     }
   },
   "renames": {},
-  "plugins": []
+  "plugins": [
+    {
+      "id": "agena.template_cdylib",
+      "name": "Agena cdylib Plugin Template",
+      "description": "Production-ready Agena cdylib plugin repository template and release fixture.",
+      "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+      "license": "Apache-2.0",
+      "category": "development",
+      "tags": [
+        "example",
+        "template"
+      ],
+      "review_tier": "official",
+      "featured": true,
+      "versions": [
+        {
+          "version": "0.1.0",
+          "kind": "cdylib",
+          "platform": "aarch64-apple-darwin",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "fcb69b79b8c514195104a162af9c015703002a0314d96e923ed0573ff42b513e",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "libagena_plugin_template_cdylib.dylib"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+            "tag": "v0.1.0",
+            "commit": "0151a2ee20fea8699a95fd32559fd7efcbc5c391",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/actions/runs/32318624459"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "cdylib",
+          "platform": "aarch64-pc-windows-msvc",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-aarch64-pc-windows-msvc.tar.gz",
+          "sha256": "2ed4b7dc3bb3c5034e5b2e070039470c8439e2c09d2c347745af79673a57e3c6",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena_plugin_template_cdylib.dll"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+            "tag": "v0.1.0",
+            "commit": "0151a2ee20fea8699a95fd32559fd7efcbc5c391",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/actions/runs/32318624459"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "cdylib",
+          "platform": "aarch64-unknown-linux-gnu",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-aarch64-unknown-linux-gnu.tar.gz",
+          "sha256": "5ce88ed7b28f2604d33b29f882cc86af6cc2438af2b00ba231b2584a624453fa",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "libagena_plugin_template_cdylib.so"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+            "tag": "v0.1.0",
+            "commit": "0151a2ee20fea8699a95fd32559fd7efcbc5c391",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/actions/runs/32318624459"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "cdylib",
+          "platform": "x86_64-apple-darwin",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "648414322fcde8ee8152f23c20a1f40f4ffdfb9adebb0615144888d9db0ccfed",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "libagena_plugin_template_cdylib.dylib"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+            "tag": "v0.1.0",
+            "commit": "0151a2ee20fea8699a95fd32559fd7efcbc5c391",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/actions/runs/32318624459"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "cdylib",
+          "platform": "x86_64-pc-windows-msvc",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-x86_64-pc-windows-msvc.tar.gz",
+          "sha256": "dd194570731dda19d38e7a19f40b8d5310569f1fff9a7d5017eb430056b35faf",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena_plugin_template_cdylib.dll"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+            "tag": "v0.1.0",
+            "commit": "0151a2ee20fea8699a95fd32559fd7efcbc5c391",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/actions/runs/32318624459"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "cdylib",
+          "platform": "x86_64-unknown-linux-gnu",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-x86_64-unknown-linux-gnu.tar.gz",
+          "sha256": "4ac89280163825ad151d2811211de7320f10ef0c0af6394aab57c210becf699b",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "libagena_plugin_template_cdylib.so"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+            "tag": "v0.1.0",
+            "commit": "0151a2ee20fea8699a95fd32559fd7efcbc5c391",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/actions/runs/32318624459"
+          }
+        }
+      ]
+    },
+    {
+      "id": "agena.template_stdio",
+      "name": "Agena stdio Plugin Template",
+      "description": "Production-ready Agena stdio plugin repository template and release fixture.",
+      "repository": "https://github.com/canxin121/agena-plugin-template-rust-stdio",
+      "license": "Apache-2.0",
+      "category": "development",
+      "tags": [
+        "example",
+        "template"
+      ],
+      "review_tier": "official",
+      "featured": true,
+      "versions": [
+        {
+          "version": "0.1.0",
+          "kind": "stdio",
+          "platform": "aarch64-apple-darwin",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/releases/download/v0.1.0/agena-template_stdio-v0.1.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "41c8fbb38d54d0f53a9675519f914a5eb7a01674bdb9376102eeb7b838df016e",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena-plugin-template-stdio"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-stdio",
+            "tag": "v0.1.0",
+            "commit": "6cf89e3ee40c60769a38ef564d1776cd3444fb50",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/actions/runs/32318616787"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "stdio",
+          "platform": "aarch64-pc-windows-msvc",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/releases/download/v0.1.0/agena-template_stdio-v0.1.0-aarch64-pc-windows-msvc.tar.gz",
+          "sha256": "d60a0dc057f6445a916ae8824db37a682901a84f59923e6fa5c8e0653264abbf",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena-plugin-template-stdio.exe"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-stdio",
+            "tag": "v0.1.0",
+            "commit": "6cf89e3ee40c60769a38ef564d1776cd3444fb50",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/actions/runs/32318616787"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "stdio",
+          "platform": "aarch64-unknown-linux-gnu",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/releases/download/v0.1.0/agena-template_stdio-v0.1.0-aarch64-unknown-linux-gnu.tar.gz",
+          "sha256": "1e7ccb9bf4119909511218ad1409d1bc94be4154c3580f580828510d8775c1b1",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena-plugin-template-stdio"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-stdio",
+            "tag": "v0.1.0",
+            "commit": "6cf89e3ee40c60769a38ef564d1776cd3444fb50",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/actions/runs/32318616787"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "stdio",
+          "platform": "x86_64-apple-darwin",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/releases/download/v0.1.0/agena-template_stdio-v0.1.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "f1f027defdcb67e7eceb987c61911b8b9a8aed2b5b56cc9b842c67bb405865f9",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena-plugin-template-stdio"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-stdio",
+            "tag": "v0.1.0",
+            "commit": "6cf89e3ee40c60769a38ef564d1776cd3444fb50",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/actions/runs/32318616787"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "stdio",
+          "platform": "x86_64-pc-windows-msvc",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/releases/download/v0.1.0/agena-template_stdio-v0.1.0-x86_64-pc-windows-msvc.tar.gz",
+          "sha256": "2e90594c77edda4f76ee5113d4c5c930081223c8f8a990dd93079c4696587ad1",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena-plugin-template-stdio.exe"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-stdio",
+            "tag": "v0.1.0",
+            "commit": "6cf89e3ee40c60769a38ef564d1776cd3444fb50",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/actions/runs/32318616787"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "kind": "stdio",
+          "platform": "x86_64-unknown-linux-gnu",
+          "url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/releases/download/v0.1.0/agena-template_stdio-v0.1.0-x86_64-unknown-linux-gnu.tar.gz",
+          "sha256": "728c82ac4dbcf4a9f5f40d40e2d81b70283c46cf97b12ed5e9990d1fe9fcc6b9",
+          "min_agena_version": ">=0.1.0",
+          "archive": {
+            "format": "tar_gz",
+            "entrypoint": "agena-plugin-template-stdio"
+          },
+          "source": {
+            "repository": "https://github.com/canxin121/agena-plugin-template-rust-stdio",
+            "tag": "v0.1.0",
+            "commit": "6cf89e3ee40c60769a38ef564d1776cd3444fb50",
+            "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-stdio/actions/runs/32318616787"
+          }
+        }
+      ]
+    }
+  ]
 }

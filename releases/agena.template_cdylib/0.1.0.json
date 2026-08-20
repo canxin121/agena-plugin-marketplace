@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "agena.template_cdylib",
+  "name": "Agena cdylib Plugin Template",
+  "description": "Production-ready Agena cdylib plugin repository template and release fixture.",
+  "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+  "license": "Apache-2.0",
+  "category": "development",
+  "tags": [
+    "example",
+    "template"
+  ],
+  "version": "0.1.0",
+  "min_agena_version": ">=0.1.0",
+  "source": {
+    "repository": "https://github.com/canxin121/agena-plugin-template-rust-cdylib",
+    "tag": "v0.1.0",
+    "commit": "0151a2ee20fea8699a95fd32559fd7efcbc5c391",
+    "workflow_run_url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/actions/runs/32318624459"
+  },
+  "artifacts": [
+    {
+      "target": "aarch64-apple-darwin",
+      "kind": "cdylib",
+      "asset": "agena-template_cdylib-v0.1.0-aarch64-apple-darwin.tar.gz",
+      "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "fcb69b79b8c514195104a162af9c015703002a0314d96e923ed0573ff42b513e",
+      "archive": {
+        "format": "tar_gz",
+        "entrypoint": "libagena_plugin_template_cdylib.dylib"
+      }
+    },
+    {
+      "target": "aarch64-pc-windows-msvc",
+      "kind": "cdylib",
+      "asset": "agena-template_cdylib-v0.1.0-aarch64-pc-windows-msvc.tar.gz",
+      "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-aarch64-pc-windows-msvc.tar.gz",
+      "sha256": "2ed4b7dc3bb3c5034e5b2e070039470c8439e2c09d2c347745af79673a57e3c6",
+      "archive": {
+        "format": "tar_gz",
+        "entrypoint": "agena_plugin_template_cdylib.dll"
+      }
+    },
+    {
+      "target": "aarch64-unknown-linux-gnu",
+      "kind": "cdylib",
+      "asset": "agena-template_cdylib-v0.1.0-aarch64-unknown-linux-gnu.tar.gz",
+      "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "5ce88ed7b28f2604d33b29f882cc86af6cc2438af2b00ba231b2584a624453fa",
+      "archive": {
+        "format": "tar_gz",
+        "entrypoint": "libagena_plugin_template_cdylib.so"
+      }
+    },
+    {
+      "target": "x86_64-apple-darwin",
+      "kind": "cdylib",
+      "asset": "agena-template_cdylib-v0.1.0-x86_64-apple-darwin.tar.gz",
+      "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "648414322fcde8ee8152f23c20a1f40f4ffdfb9adebb0615144888d9db0ccfed",
+      "archive": {
+        "format": "tar_gz",
+        "entrypoint": "libagena_plugin_template_cdylib.dylib"
+      }
+    },
+    {
+      "target": "x86_64-pc-windows-msvc",
+      "kind": "cdylib",
+      "asset": "agena-template_cdylib-v0.1.0-x86_64-pc-windows-msvc.tar.gz",
+      "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-x86_64-pc-windows-msvc.tar.gz",
+      "sha256": "dd194570731dda19d38e7a19f40b8d5310569f1fff9a7d5017eb430056b35faf",
+      "archive": {
+        "format": "tar_gz",
+        "entrypoint": "agena_plugin_template_cdylib.dll"
+      }
+    },
+    {
+      "target": "x86_64-unknown-linux-gnu",
+      "kind": "cdylib",
+      "asset": "agena-template_cdylib-v0.1.0-x86_64-unknown-linux-gnu.tar.gz",
+      "url": "https://github.com/canxin121/agena-plugin-template-rust-cdylib/releases/download/v0.1.0/agena-template_cdylib-v0.1.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "4ac89280163825ad151d2811211de7320f10ef0c0af6394aab57c210becf699b",
+      "archive": {
+        "format": "tar_gz",
+        "entrypoint": "libagena_plugin_template_cdylib.so"
+      }
+    }
+  ]
+}

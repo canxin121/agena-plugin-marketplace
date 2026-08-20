@@ -12,3 +12,11 @@ name = "canxin121"
 [renames]
 
 [plugins]
+
+[plugins."agena.template_stdio"]
+review_tier = "official"
+featured = true
+
+[plugins."agena.template_cdylib"]
+review_tier = "official"
+featured = true
